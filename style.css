@@ -28,6 +28,7 @@
 .tableColumn {
     display: grid;
     grid-template-columns: repeat(5, 2fr 1fr);
+    border-radius: 5px;
 }
 .tableColumn div:not(:first-child):not(.tableCellGroup) {
     display: flex;
